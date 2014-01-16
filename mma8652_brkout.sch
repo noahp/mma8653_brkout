@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:kicadlib
 LIBS:mma8652_brkout-cache
 EELAYER 27 0
 EELAYER END
@@ -36,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "15 jan 2014"
+Date "16 jan 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -44,17 +45,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MMA8652 U1
-U 1 1 52D6E4A5
-P 5900 3300
-F 0 "U1" H 5900 2850 60  0000 C CNN
-F 1 "MMA8652" H 5900 3750 60  0000 C CNN
-F 2 "" H 5800 3200 60  0000 C CNN
-F 3 "" H 5800 3200 60  0000 C CNN
-	1    5900 3300
-	1    0    0    -1  
-$EndComp
 $Comp
 L C C2
 U 1 1 52D6E4BE
@@ -282,4 +272,15 @@ Wire Wire Line
 	7000 3900 7000 3800
 Text Notes 4350 5150 0    60   ~ 0
 http://www.mouser.com/ds/2/161/MMA8652FC-254149.pdf
+$Comp
+L MMA8652 U1
+U 1 1 52D73DD3
+P 5900 3300
+F 0 "U1" H 5900 2850 60  0000 C CNN
+F 1 "MMA8652" H 5900 3750 60  0000 C CNN
+F 2 "~" H 5800 3200 60  0000 C CNN
+F 3 "~" H 5800 3200 60  0000 C CNN
+	1    5900 3300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
