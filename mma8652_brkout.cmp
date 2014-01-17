@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 1/15/2014 9:10:38 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 1/16/2014 8:57:31 PM
 
 BeginCmp
 TimeStamp = /52D6E4CB;
@@ -33,6 +33,55 @@ TimeStamp = /52D6E87D;
 Reference = JP1;
 ValeurCmp = JUMPER;
 IdModule  = jmp_small;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D88DCF;
+Reference = P1;
+ValeurCmp = TST;
+IdModule  = TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D88E11;
+Reference = P2;
+ValeurCmp = TST;
+IdModule  = TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D88DDE;
+Reference = P3;
+ValeurCmp = TST;
+IdModule  = TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D88EDB;
+Reference = P4;
+ValeurCmp = TST;
+IdModule  = TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D88EE1;
+Reference = P5;
+ValeurCmp = TST;
+IdModule  = TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D88EE7;
+Reference = P6;
+ValeurCmp = TST;
+IdModule  = TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D88EED;
+Reference = P7;
+ValeurCmp = TST;
+IdModule  = TEST_0.100;
 EndCmp
 
 BeginCmp
