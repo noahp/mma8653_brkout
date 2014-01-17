@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/dev/mma8652_brkout/mma8652_brkout.sch)
-    (date "1/16/2014 9:03:14 PM")
+    (date "1/16/2014 9:35:15 PM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref C2)
